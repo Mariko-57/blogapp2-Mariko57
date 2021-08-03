@@ -55,6 +55,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'erb2haml'
   gem 'spring'
+  gem 'letter_opener'
+  gem 'letter_opener_web', '~> 1.0e'
 end
 
 group :test do
